@@ -14,4 +14,6 @@ function clean {
 
 clean
 
+find -name "*.pyc" | xargs rm
+
 echo -e "\033[32;5m[sticker] clean successful \033[0m "

@@ -78,6 +78,7 @@ function Start {
   Export
   PlatformOnly
   BuildQT
+  CheckResult
   DeleteGenerateFile
 }
 

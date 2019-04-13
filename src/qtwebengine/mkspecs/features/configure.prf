@@ -85,8 +85,8 @@ defineTest(runConfigure) {
 
         for(package, $$list("nss dbus fontconfig")) {
             !qtConfig(webengine-system-$$package) {
-                skipBuild("A suitable version of $$package could not be found.")
-                return(false)
+                #skipBuild("A suitable version of $$package could not be found.")
+                #return(false)
             }
          }
 
